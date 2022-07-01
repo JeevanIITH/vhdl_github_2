@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/vhdl_test_ise-/Adder/t_adder.vhd";
+static const char *ng0 = "D:/vhdl_github_2/vhdl_github_2/Adder/t_adder.vhd";
 
 
 
@@ -44,7 +44,7 @@ LAB0:    t1 = (t0 + 2832U);
 LAB3:    goto *t2;
 
 LAB2:    xsi_set_current_line(86, ng0);
-    t2 = (t0 + 5090);
+    t2 = (t0 + 5206);
     t4 = (t0 + 3216);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -53,7 +53,7 @@ LAB2:    xsi_set_current_line(86, ng0);
     memcpy(t8, t2, 4U);
     xsi_driver_first_trans_fast(t4);
     xsi_set_current_line(87, ng0);
-    t2 = (t0 + 5094);
+    t2 = (t0 + 5210);
     t4 = (t0 + 3280);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -67,7 +67,7 @@ LAB2:    xsi_set_current_line(86, ng0);
     t4 = *((char **)t3);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
-    *((unsigned char *)t6) = (unsigned char)3;
+    *((unsigned char *)t6) = (unsigned char)2;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(92, ng0);
 

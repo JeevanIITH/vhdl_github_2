@@ -1,5 +1,5 @@
 ISim log file
-Running: D:\vhdl_test_ise-\Adder\t_adder_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/vhdl_test_ise-/Adder/t_adder_isim_beh.wdb 
+Running: D:\vhdl_github_2\vhdl_github_2\Adder\t_adder_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/vhdl_github_2/vhdl_github_2/Adder/t_adder_isim_beh.wdb 
 ISim P.15xf (signature 0xc3576ebc)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.

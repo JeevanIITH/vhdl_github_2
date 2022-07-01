@@ -83,9 +83,9 @@ BEGIN
       -- hold reset state for 100 ns.
       	
 
-      a<="1111";
-		b<="1111";
-		cin<='1';
+      a<="1100";
+		b<="0000";
+		cin<='0';
 
       -- insert stimulus here 
 
