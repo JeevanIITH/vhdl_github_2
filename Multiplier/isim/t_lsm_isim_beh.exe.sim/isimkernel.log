@@ -1,0 +1,35 @@
+Command line:
+   t_lsm_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  49982
+
+Fri Jul 01 13:16:55 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5144.97 Meg
+
+ Total Signals          : 11
+ Total Nets             : 31
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 392
+Total Line Count : 22
+
+** Failure:ok
+User(VHDL) Code Called Simulation Stop
+In process t_lsm.vhd:stim_proc 
+ 
+
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5459.54 Meg
+
+Fri Jul 01 13:17:29 2022
+

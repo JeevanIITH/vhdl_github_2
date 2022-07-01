@@ -1,0 +1,20 @@
+Running: J:\xilinx_ise\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/vhdl_test_ise-/cycle_test/test_a_isim_beh.exe -prj D:/vhdl_test_ise-/cycle_test/test_a_beh.prj work.test_a 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/vhdl_test_ise-/cycle_test/a.vhd" into library work
+Parsing VHDL file "D:/vhdl_test_ise-/cycle_test/test_a.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity a [a_default]
+Compiling architecture behavior of entity test_a
+Time Resolution for simulation is 1ps.
+Compiled 7 VHDL Units
+Built simulation executable D:/vhdl_test_ise-/cycle_test/test_a_isim_beh.exe
+Fuse Memory Usage: 33968 KB
+Fuse CPU Usage: 436 ms

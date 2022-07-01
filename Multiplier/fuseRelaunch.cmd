@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/vhdl_test_ise-/Mult_3/t_mul_isim_beh.exe" -prj "D:/vhdl_test_ise-/Mult_3/t_mul_beh.prj" "work.t_mul" 

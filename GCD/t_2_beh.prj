@@ -1,0 +1,3 @@
+vhdl work "a.vhd"
+vhdl work "gcd.vhd"
+vhdl work "t_2.vhd"

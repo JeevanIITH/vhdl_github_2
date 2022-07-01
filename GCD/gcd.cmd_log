@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/vhdl_test_ise-/gcd1/gcd.xst" -ofn "D:/vhdl_test_ise-/gcd1/gcd.syr" 

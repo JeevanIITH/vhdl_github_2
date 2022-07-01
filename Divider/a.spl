@@ -1,0 +1,7 @@
+[Inputs]
+clock
+=d[3:0]=
+=m[3:0]=
+[Outputs]
+=q[3:0]=
+[BiDir]
