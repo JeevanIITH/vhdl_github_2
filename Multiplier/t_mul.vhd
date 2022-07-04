@@ -45,7 +45,8 @@ ARCHITECTURE behavior OF t_mul IS
          m : IN  std_logic_vector(3 downto 0);
          clk : IN  std_logic;
          str : IN  std_logic;
-         product : OUT  std_logic_vector(7 downto 0)
+         product1 : OUT  std_logic_vector(3 downto 0);
+			product2:  OUT std_logic_vector (3 downto 0)
         );
     END COMPONENT;
     
@@ -57,7 +58,9 @@ ARCHITECTURE behavior OF t_mul IS
    signal str : std_logic := '0';
 
  	--Outputs
-   signal product : std_logic_vector(7 downto 0);
+   signal product1 : std_logic_vector(3 downto 0);
+	signal product2 : std_logic_vector(3 downto 0);
+
 
    -- Clock period definitions
    constant clk_period : time := 10 ns;
@@ -70,7 +73,8 @@ BEGIN
           m => m,
           clk => clk,
           str => str,
-          product => product
+          product1 => product1,
+			 product2 => product2
         );
 
    -- Clock process definitions
@@ -87,11 +91,13 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
+		
+		wait for 20 ns ;
       q<="1111";
 		m<="1111";
 		str<='1';
 
-      wait for 80 ns ;
+      wait for 100 ns ;
 		assert false report "ok" severity failure;
 
       -- insert stimulus here 

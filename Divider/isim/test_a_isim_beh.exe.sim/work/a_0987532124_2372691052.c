@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/vhdl_test_ise-/cycle_test/test_a.vhd";
+static const char *ng0 = "J:/vhdl_github_2/vhdl_github_2/Divider/test_a.vhd";
 
 
 
@@ -102,6 +102,7 @@ static void work_a_0987532124_2372691052_p_1(char *t0)
     char *t6;
     char *t7;
     char *t8;
+    int64 t9;
 
 LAB0:    t1 = (t0 + 3040U);
     t2 = *((char **)t1);
@@ -111,7 +112,7 @@ LAB0:    t1 = (t0 + 3040U);
 LAB3:    goto *t2;
 
 LAB2:    xsi_set_current_line(92, ng0);
-    t2 = (t0 + 5448);
+    t2 = (t0 + 5552);
     t4 = (t0 + 3488);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -120,7 +121,7 @@ LAB2:    xsi_set_current_line(92, ng0);
     memcpy(t8, t2, 4U);
     xsi_driver_first_trans_fast(t4);
     xsi_set_current_line(93, ng0);
-    t2 = (t0 + 5452);
+    t2 = (t0 + 5556);
     t4 = (t0 + 3552);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -129,15 +130,26 @@ LAB2:    xsi_set_current_line(92, ng0);
     memcpy(t8, t2, 4U);
     xsi_driver_first_trans_fast(t4);
     xsi_set_current_line(95, ng0);
+    t9 = (100 * 1000LL);
+    t2 = (t0 + 2848);
+    xsi_process_wait(t2, t9);
 
 LAB6:    *((char **)t1) = &&LAB7;
 
 LAB1:    return;
-LAB4:    goto LAB2;
+LAB4:    xsi_set_current_line(96, ng0);
+    if ((unsigned char)0 == 0)
+        goto LAB8;
+
+LAB9:    goto LAB2;
 
 LAB5:    goto LAB4;
 
 LAB7:    goto LAB5;
+
+LAB8:    t2 = (t0 + 5560);
+    xsi_report(t2, 2U, (unsigned char)3);
+    goto LAB9;
 
 }
 

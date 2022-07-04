@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/vhdl_test_ise-/cycle_test/a.vhd";
+static const char *ng0 = "J:/vhdl_github_2/vhdl_github_2/Divider/a.vhd";
 extern char *IEEE_P_2592010699;
 extern char *IEEE_P_3620187407;
 
@@ -124,10 +124,10 @@ LAB2:    xsi_set_current_line(58, ng0);
     xsi_set_current_line(59, ng0);
     t1 = (t0 + 2688U);
     t3 = *((char **)t1);
-    t1 = (t0 + 6248U);
+    t1 = (t0 + 6388U);
     t4 = (t0 + 1192U);
     t8 = *((char **)t4);
-    t4 = (t0 + 6136U);
+    t4 = (t0 + 6276U);
     t2 = ieee_p_3620187407_sub_4060537613_3965413181(IEEE_P_3620187407, t3, t1, t8, t4);
     if (t2 != 0)
         goto LAB5;
@@ -151,7 +151,7 @@ LAB7:    xsi_set_current_line(70, ng0);
     t13 = (t13 + 1);
     t8 = (t4 + 12U);
     *((unsigned int *)t8) = t13;
-    t8 = (t0 + 6312);
+    t8 = (t0 + 6452);
     t10 = (t26 + 0U);
     t17 = (t10 + 0U);
     *((int *)t17) = 0;

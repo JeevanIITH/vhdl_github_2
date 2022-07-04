@@ -1,12 +1,12 @@
 Release 14.1 - xst P.15xf (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to D:/vhdl_test_ise-/Mult_3/xst/projnav.tmp
+--> Parameter TMPDIR set to J:/vhdl_github_2/vhdl_github_2/Multiplier/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.09 secs
  
---> Parameter xsthdpdir set to D:/vhdl_test_ise-/Mult_3/xst
+--> Parameter xsthdpdir set to J:/vhdl_github_2/vhdl_github_2/Multiplier/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -39,26 +39,26 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "D:\vhdl_test_ise-\Mult_3\sum.vhd" into library work
+Parsing VHDL file "J:\vhdl_github_2\vhdl_github_2\Multiplier\sum.vhd" into library work
 Parsing entity <sum>.
 Parsing architecture <Behavioral> of entity <sum>.
-Parsing VHDL file "D:\vhdl_test_ise-\Mult_3\RS_q.vhd" into library work
+Parsing VHDL file "J:\vhdl_github_2\vhdl_github_2\Multiplier\RS_q.vhd" into library work
 Parsing entity <RS_q>.
 Parsing architecture <Behavioral> of entity <rs_q>.
-Parsing VHDL file "D:\vhdl_test_ise-\Mult_3\left_shift_8_bit.vhd" into library work
+Parsing VHDL file "J:\vhdl_github_2\vhdl_github_2\Multiplier\left_shift_8_bit.vhd" into library work
 Parsing entity <left_shift_8_bit>.
 Parsing architecture <Behavioral> of entity <left_shift_8_bit>.
-Parsing VHDL file "D:\vhdl_test_ise-\Mult_3\mul_2.vhd" into library work
+Parsing VHDL file "J:\vhdl_github_2\vhdl_github_2\Multiplier\mul_2.vhd" into library work
 Parsing entity <mul_2>.
 Parsing architecture <Behavioral> of entity <mul_2>.
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.58 secs
+Total CPU time to Xst completion: 4.59 secs
  
 --> 
 
-Total memory usage is 4491368 kilobytes
+Total memory usage is 4491388 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

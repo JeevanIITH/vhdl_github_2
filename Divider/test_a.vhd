@@ -89,10 +89,13 @@ BEGIN
       --wait for clock_period*10;
 
       -- insert stimulus here 
+		wait for 20 ns ;
+		enable<='1';
 		d<="0010";
 		m<="0101";
 
-      wait;
+      wait for 100 ns;
+		assert false report "ok" severity failure;
    end process;
 
 END;

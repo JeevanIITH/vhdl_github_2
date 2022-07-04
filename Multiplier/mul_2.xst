@@ -1,5 +1,5 @@
-set -tmpdir "D:/vhdl_test_ise-/Mult_3/xst/projnav.tmp"
-set -xsthdpdir "D:/vhdl_test_ise-/Mult_3/xst"
+set -tmpdir "J:/vhdl_github_2/vhdl_github_2/Multiplier/xst/projnav.tmp"
+set -xsthdpdir "J:/vhdl_github_2/vhdl_github_2/Multiplier/xst"
 run -compileonly yes
 -p xc7a100t-3-csg324
 -top mul_2

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-07-01T14:11:51</DateModified>
+  <DateModified>2022-07-04T18:55:55</DateModified>
   <ModuleName>mul_2</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/vhdl_test_ise-/Mult_3/iseconfig/mul_2.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/vhdl_test_ise-/Mult_3\</ImplementationReportsDirectory>
+  <SavedFilePath>J:/vhdl_github_2/vhdl_github_2/Multiplier/iseconfig/mul_2.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>J:/vhdl_github_2/vhdl_github_2/Multiplier\</ImplementationReportsDirectory>
   <DateInitialized>2022-07-01T10:14:53</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

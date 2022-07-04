@@ -36,7 +36,8 @@ entity sum is
 	port (   q_in:in std_logic;
 				m_in:in std_logic_vector( 7 downto 0);
 				clk:in std_logic;
-				pout: out std_logic_vector ( 7 downto 0) );
+				pout1: out std_logic_vector ( 3 downto 0);
+			   pout2: out std_logic_vector ( 3 downto 0) );
 end sum;
 
 architecture Behavioral of sum is
@@ -51,13 +52,15 @@ begin
 					sum_t:=sum_t( 7 downto 0 ) + "00000000";
 					n:=n-1;
 					if (n=0) then 
-						pout<=sum_t;
+						pout2<=sum_t( 3 downto 0 );
+						pout1<=sum_t( 7 downto 4 );
 					end if;
 				elsif (q_in='1') then
 					sum_t:=sum_t( 7 downto 0) + m_in( 7 downto 0) ;
 					n:=n-1;
 					if (n=0) then 
-						pout<=sum_t ;
+						pout2<=sum_t( 3 downto 0 );
+						pout1<=sum_t( 7 downto 4 );
 					end if;
 				
 			end if;

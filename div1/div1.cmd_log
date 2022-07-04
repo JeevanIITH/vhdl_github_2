@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "J:/vhdl_github_2/vhdl_github_2/div1/div1.xst" -ofn "J:/vhdl_github_2/vhdl_github_2/div1/div1.syr" 

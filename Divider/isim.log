@@ -1,5 +1,6 @@
 ISim log file
-Running: D:\vhdl_test_ise-\cycle_test\test_a_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/vhdl_test_ise-/cycle_test/test_a_isim_beh.wdb 
+Running: J:\vhdl_github_2\vhdl_github_2\Divider\t_a_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb J:/vhdl_github_2/vhdl_github_2/Divider/t_a_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
 ISim P.15xf (signature 0xc3576ebc)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -27,6 +28,6 @@ Time resolution is 1 ps
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 ERROR: Index -1 out of bound 3 downto 0. 
-ERROR: In process a.vhd:49 
+ERROR: In process a.vhd:50 
  
 INFO: Simulator is stopped.

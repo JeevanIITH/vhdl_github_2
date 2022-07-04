@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/vhdl_github_2/vhdl_github_2/xor_bit/t_xor_isim_beh.exe" -prj "D:/vhdl_github_2/vhdl_github_2/xor_bit/t_xor_beh.prj" "work.t_xor" 
