@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "J:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2.vhd";
+static const char *ng0 = "D:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2.vhd";
 
 
 

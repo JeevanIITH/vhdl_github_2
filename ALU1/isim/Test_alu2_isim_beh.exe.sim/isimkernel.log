@@ -2,14 +2,14 @@ Command line:
    Test_alu2_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  53252
+     -socket  53479
 
-Mon Jul 04 21:34:51 2022
+Mon Jul 04 22:10:07 2022
 
 
- Elaboration Time: 0.046875 sec
+ Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 5145.18 Meg
+ Current Memory Usage: 5145.76 Meg
 
  Total Signals          : 130
  Total Nets             : 166
@@ -27,9 +27,9 @@ In process Test_alu2.vhd:stim_proc
  
 
 
- Total Simulation Time: 0.078125 sec
+ Total Simulation Time: 0.03125 sec
 
- Current Memory Usage: 4673.32 Meg
+ Current Memory Usage: 4988.48 Meg
 
-Mon Jul 04 21:51:07 2022
+Mon Jul 04 22:20:28 2022
 

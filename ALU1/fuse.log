@@ -1,21 +1,21 @@
-Running: J:\xilinx_ise\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o J:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_isim_beh.exe -prj J:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_beh.prj Test_alu2 
+Running: J:\xilinx_ise\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_isim_beh.exe -prj D:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_beh.prj work.Test_alu2 
 ISim P.15xf (signature 0xc3576ebc)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/one_bit_adder.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/Two_bit_adder.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/sum.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/RS_q.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/left_shift_8_bit.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/xor_bit.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/or_bit.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/mul_2.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/four_bit_adder.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/div1.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/AND.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.vhd" into library work
-Parsing VHDL file "J:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/one_bit_adder.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/Two_bit_adder.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/sum.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/RS_q.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/left_shift_8_bit.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/xor_bit.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/or_bit.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/mul_2.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/four_bit_adder.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/div1.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/AND.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -39,6 +39,6 @@ Compiling architecture behavior of entity test_alu2
 Time Resolution for simulation is 1ps.
 Waiting for 2 sub-compilation(s) to finish...
 Compiled 30 VHDL Units
-Built simulation executable J:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_isim_beh.exe
-Fuse Memory Usage: 37412 KB
-Fuse CPU Usage: 687 ms
+Built simulation executable D:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_isim_beh.exe
+Fuse Memory Usage: 36880 KB
+Fuse CPU Usage: 499 ms

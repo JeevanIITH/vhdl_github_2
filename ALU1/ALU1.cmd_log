@@ -3,3 +3,4 @@ xst -intstyle ise -ifn "J:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.xst" -ofn "J:/v
 xst -intstyle ise -ifn "J:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.xst" -ofn "J:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.syr" 
 xst -intstyle ise -ifn "J:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.xst" -ofn "J:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.syr" 
 xst -intstyle ise -ifn "J:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.xst" -ofn "J:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.syr" 
+xst -intstyle ise -ifn "D:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.xst" -ofn "D:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.syr" 

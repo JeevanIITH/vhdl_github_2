@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "J:/vhdl_github_2/vhdl_github_2/ALU1/sum.vhd";
+static const char *ng0 = "D:/vhdl_github_2/vhdl_github_2/ALU1/sum.vhd";
 extern char *IEEE_P_3620187407;
 
 char *ieee_p_3620187407_sub_767668596_3965413181(char *, char *, char *, char *, char *, char *);

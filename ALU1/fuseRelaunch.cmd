@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "J:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_isim_beh.exe" -prj "J:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_beh.prj" "Test_alu2" 
+-intstyle "ise" -incremental -lib "secureip" -o "D:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_isim_beh.exe" -prj "D:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2_beh.prj" "work.Test_alu2" 

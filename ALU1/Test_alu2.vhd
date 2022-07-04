@@ -97,7 +97,7 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
       wait for 10 ns ;
-		s<="0101";
+		s<="0100";
 		A<="1111";
 		B<="0100";
 		
