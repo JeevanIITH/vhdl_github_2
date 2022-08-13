@@ -59,6 +59,10 @@
     <transform xil_pn:end_ts="1656928892" xil_pn:in_ck="4978664202298657333" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1656928892">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="a.vhd"/>
       <outfile xil_pn:name="t_a.vhd"/>
     </transform>
@@ -77,12 +81,20 @@
     <transform xil_pn:end_ts="1656928892" xil_pn:in_ck="4978664202298657333" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1656928892">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="a.vhd"/>
       <outfile xil_pn:name="t_a.vhd"/>
     </transform>
     <transform xil_pn:end_ts="1656928895" xil_pn:in_ck="4978664202298657333" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="267933976518639364" xil_pn:start_ts="1656928892">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
@@ -93,6 +105,7 @@
     <transform xil_pn:end_ts="1656928895" xil_pn:in_ck="-4263755389155093853" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6796268922175616177" xil_pn:start_ts="1656928895">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="t_a_isim_beh.wdb"/>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="signed_adder_4_bit.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_signed_adder.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="four_bit_signed_adder.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="four_bit_signed_adder.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_fou_bit_adder_signed_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_fou_bit_adder_signed_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_fou_bit_adder_signed_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_fou_bit_adder_signed_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1660371430" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1660371430">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1660371542" xil_pn:in_ck="7201624957108829543" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1660371542">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Two_bit_adder.vhd"/>
+      <outfile xil_pn:name="four_bit_signed_adder.vhd"/>
+      <outfile xil_pn:name="one_bit_adder.vhd"/>
+      <outfile xil_pn:name="test_fou_bit_adder_signed.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1660371430" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5968046564963522379" xil_pn:start_ts="1660371430">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1660371430" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1118933194222293485" xil_pn:start_ts="1660371430">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1660371430" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7355405342149730139" xil_pn:start_ts="1660371430">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1660371542" xil_pn:in_ck="7201624957108829543" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1660371542">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Two_bit_adder.vhd"/>
+      <outfile xil_pn:name="four_bit_signed_adder.vhd"/>
+      <outfile xil_pn:name="one_bit_adder.vhd"/>
+      <outfile xil_pn:name="test_fou_bit_adder_signed.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1660371544" xil_pn:in_ck="7201624957108829543" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1046762057799703430" xil_pn:start_ts="1660371542">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_fou_bit_adder_signed_beh.prj"/>
+      <outfile xil_pn:name="test_fou_bit_adder_signed_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1660371545" xil_pn:in_ck="8035300893651345518" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7905181011316844167" xil_pn:start_ts="1660371544">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_fou_bit_adder_signed_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

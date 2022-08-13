@@ -40,7 +40,7 @@ entity a is
 					);
 end a;
 
-architecture Behavioral of a is
+ architecture Behavioral of a is
 	signal reg1:std_logic_vector(3 downto 0):="0000";
 	signal reg2:std_logic_vector(3 downto 0):="0000";
 	signal reg_q:std_logic_vector (3 downto 0):="0000";

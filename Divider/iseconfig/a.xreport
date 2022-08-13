@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-07-04T18:33:03</DateModified>
+  <DateModified>2022-08-13T10:24:18</DateModified>
   <ModuleName>a</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>J:/vhdl_github_2/vhdl_github_2/Divider/iseconfig/a.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>J:/vhdl_github_2/vhdl_github_2/Divider\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/vhdl_github_2/vhdl_github_2/Divider/iseconfig/a.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/vhdl_github_2/vhdl_github_2/Divider\</ImplementationReportsDirectory>
   <DateInitialized>2022-06-25T16:27:22</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

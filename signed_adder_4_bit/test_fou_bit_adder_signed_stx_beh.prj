@@ -1,0 +1,4 @@
+vhdl isim_temp "one_bit_adder.vhd"
+vhdl isim_temp "Two_bit_adder.vhd"
+vhdl isim_temp "four_bit_signed_adder.vhd"
+vhdl isim_temp "test_fou_bit_adder_signed.vhd"

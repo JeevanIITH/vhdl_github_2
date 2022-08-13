@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/test_fou_bit_adder_signed_isim_beh.exe" -prj "D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/test_fou_bit_adder_signed_beh.prj" "work.test_fou_bit_adder_signed" 

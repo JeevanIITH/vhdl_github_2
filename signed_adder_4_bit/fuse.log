@@ -1,0 +1,23 @@
+Running: J:\xilinx_ise\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/test_fou_bit_adder_signed_isim_beh.exe -prj D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/test_fou_bit_adder_signed_beh.prj work.test_fou_bit_adder_signed 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/one_bit_adder.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/Two_bit_adder.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/four_bit_signed_adder.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/test_fou_bit_adder_signed.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture struct of entity one_bit_adder [one_bit_adder_default]
+Compiling architecture st1 of entity Two_bit_adder [two_bit_adder_default]
+Compiling architecture behavioral of entity four_bit_signed_adder [four_bit_signed_adder_default]
+Compiling architecture behavior of entity test_fou_bit_adder_signed
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/test_fou_bit_adder_signed_isim_beh.exe
+Fuse Memory Usage: 29656 KB
+Fuse CPU Usage: 390 ms
