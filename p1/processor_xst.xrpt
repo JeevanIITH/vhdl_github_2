@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Mon Oct 31 11:17:10 2022">
+  <application stringID="Xst" timeStamp="Mon Oct 31 11:50:39 2022">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -111,9 +111,10 @@
         <item dataType="int" stringID="XST_2BIT_REGISTER" value="1"/>
         <item dataType="int" stringID="XST_32BIT_REGISTER" value="3"/>
       </item>
-      <item dataType="int" stringID="XST_MULTIPLEXERS" value="268">
+      <item dataType="int" stringID="XST_MULTIPLEXERS" value="269">
         <item dataType="int" stringID="XST_1BIT_2TO1_MULTIPLEXER" value="252"/>
         <item dataType="int" stringID="XST_32BIT_2TO1_MULTIPLEXER" value="15"/>
+        <item dataType="int" stringID="XST_5BIT_2TO1_MULTIPLEXER" value="1"/>
       </item>
       <item dataType="int" stringID="XST_XORS" value="65">
         <item dataType="int" stringID="XST_1BIT_XOR2" value="64"/>
@@ -127,9 +128,10 @@
       <item dataType="int" stringID="XST_REGISTERS" value="166">
         <item dataType="int" stringID="XST_FLIPFLOPS" value="166"/>
       </item>
-      <item dataType="int" stringID="XST_MULTIPLEXERS" value="268">
+      <item dataType="int" stringID="XST_MULTIPLEXERS" value="269">
         <item dataType="int" stringID="XST_1BIT_2TO1_MULTIPLEXER" value="252"/>
         <item dataType="int" stringID="XST_32BIT_2TO1_MULTIPLEXER" value="15"/>
+        <item dataType="int" stringID="XST_5BIT_2TO1_MULTIPLEXER" value="1"/>
       </item>
       <item dataType="int" stringID="XST_XORS" value="65">
         <item dataType="int" stringID="XST_1BIT_XOR2" value="64"/>
@@ -204,7 +206,7 @@
     <section stringID="XST_ERRORS_STATISTICS">
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="422"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="7"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="6"/>
     </section>
   </application>
 

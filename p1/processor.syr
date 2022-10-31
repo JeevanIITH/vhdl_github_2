@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: processor.prj
 
@@ -138,6 +138,9 @@ Parsing architecture <Behavioral> of entity <adder_32>.
 Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p1\register_file.vhd" into library work
 Parsing entity <register_file>.
 Parsing architecture <Behavioral> of entity <register_file>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p1\mux_reg.vhd" into library work
+Parsing entity <mux_reg>.
+Parsing architecture <Behavioral> of entity <mux_reg>.
 Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p1\mux_mem.vhd" into library work
 Parsing entity <mux_mem>.
 Parsing architecture <Behavioral> of entity <mux_mem>.
@@ -205,15 +208,16 @@ Elaborating entity <mux_alu> (architecture <Behavioral>) from library <work>.
 WARNING:HDLCompiler:92 - "D:\vhdl_github_2\vhdl_github_2\p1\mux_alu.vhd" Line 45: read_data_2 should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "D:\vhdl_github_2\vhdl_github_2\p1\mux_alu.vhd" Line 47: immediate should be on the sensitivity list of the process
 
+Elaborating entity <mux_reg> (architecture <Behavioral>) from library <work>.
+
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <processor>.
     Related source file is "D:\vhdl_github_2\vhdl_github_2\p1\processor.vhd".
-INFO:Xst:3210 - "D:\vhdl_github_2\vhdl_github_2\p1\processor.vhd" line 162: Output port <sr> of the instance <alu1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\vhdl_github_2\vhdl_github_2\p1\processor.vhd" line 163: Output port <Reg_dst> of the instance <controller> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\vhdl_github_2\vhdl_github_2\p1\processor.vhd" line 163: Output port <Branch> of the instance <controller> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\vhdl_github_2\vhdl_github_2\p1\processor.vhd" line 169: Output port <sr> of the instance <alu1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\vhdl_github_2\vhdl_github_2\p1\processor.vhd" line 170: Output port <Branch> of the instance <controller> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <processor> synthesized.
@@ -795,6 +799,12 @@ Synthesizing Unit <mux_alu>.
 	inferred   1 Multiplexer(s).
 Unit <mux_alu> synthesized.
 
+Synthesizing Unit <mux_reg>.
+    Related source file is "D:\vhdl_github_2\vhdl_github_2\p1\mux_reg.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux_reg> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
@@ -810,10 +820,11 @@ Macro Statistics
  32-bit register                                       : 3
 # Latches                                              : 326
  1-bit latch                                           : 326
-# Multiplexers                                         : 268
+# Multiplexers                                         : 269
  1-bit 2-to-1 multiplexer                              : 252
  1-bit 32-to-1 multiplexer                             : 1
  32-bit 2-to-1 multiplexer                             : 15
+ 5-bit 2-to-1 multiplexer                              : 1
 # Xors                                                 : 65
  1-bit xor2                                            : 64
  32-bit xor2                                           : 1
@@ -943,10 +954,11 @@ Macro Statistics
  32-bit adder                                          : 2
 # Registers                                            : 166
  Flip-Flops                                            : 166
-# Multiplexers                                         : 268
+# Multiplexers                                         : 269
  1-bit 2-to-1 multiplexer                              : 252
  1-bit 32-to-1 multiplexer                             : 1
  32-bit 2-to-1 multiplexer                             : 15
+ 5-bit 2-to-1 multiplexer                              : 1
 # Xors                                                 : 65
  1-bit xor2                                            : 64
  32-bit xor2                                           : 1
@@ -7435,14 +7447,14 @@ clock                                        |    3.705|         |         |    
 =========================================================================
 
 
-Total REAL time to Xst completion: 15.00 secs
-Total CPU time to Xst completion: 14.90 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.29 secs
  
 --> 
 
-Total memory usage is 4633324 kilobytes
+Total memory usage is 4633488 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  422 (   0 filtered)
-Number of infos    :    7 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
 

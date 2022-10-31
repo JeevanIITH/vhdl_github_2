@@ -120,6 +120,13 @@ architecture Behavioral of processor is
 				alu_src : in  STD_LOGIC;
 				alu_input_2 : out  STD_LOGIC_VECTOR (31 downto 0));
 	end component;
+
+	component mux_reg is 
+			Port ( sel2 : in  STD_LOGIC_VECTOR (4 downto 0);
+				sel3 : in  STD_LOGIC_VECTOR (4 downto 0);
+				reg_dst : in  STD_LOGIC;
+				write_reg : out  STD_LOGIC_VECTOR (4 downto 0));
+	end component ;
 	
 	----------------Control_Unit----------------------------
 	signal alu_op_s : std_logic_vector( 1 downto 0 ) ;
@@ -161,11 +168,12 @@ begin
 
 		alu1 : alu port map(alu_control_line_s,clock,alu_in_1,alu_in_2,alu_in_m ,alu_result_1 ,alu_result_2,alu_out_m);
 		controller : Control_Unit port map(op_code,clock ,  alu_src_s , mem_write_s , reg_write_s , reg_dst_s , alu_op_s , mem_to_reg_s , mem_read_s , branch_s ) ;
-		registers : register_file port map(alu_in_1,read_data_2 , reg_w_s , reg_write_s ,sel_1 , sel_2 , sel_3, clock,reg_reset );
+		registers : register_file port map(alu_in_1,read_data_2 , reg_w_s , reg_write_s ,sel_1 , sel_2 , sel_reg_w , clock,reg_reset );
 		alu_control_unit : alu_control port map(alu_op_s , f_code , alu_control_line_s);
 		memory_unit : memory port map(clock , alu_result_1 ,mem_write_s , read_data_2 , mem_read_s , read_data  );
 		memory_mux : mux_mem port map(read_data , alu_result_1 , mem_to_reg_s ,reg_w_s);
 		alu_mux : mux_alu port map (read_data_2 , immediate ,alu_src_s ,alu_in_2 );
+		reg_mux : mux_reg port map ( sel_2 , sel_3 ,reg_dst_s , sel_reg_w );
 		
 
 end Behavioral;
