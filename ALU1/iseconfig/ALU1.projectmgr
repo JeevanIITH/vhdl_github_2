@@ -14,13 +14,13 @@
          <ClosedNode>/mul_2 - Behavioral D:|vhdl_github_2|vhdl_github_2|ALU1|mul_2.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>ALU1 - Behavioral (D:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.vhd)</SelectedItem>
+         <SelectedItem>Multiplier - mul_2 - Behavioral (D:/vhdl_github_2/vhdl_github_2/ALU1/mul_2.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017f0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>ALU1 - Behavioral (D:/vhdl_github_2/vhdl_github_2/ALU1/ALU1.vhd)</CurrentItem>
+      <CurrentItem>Multiplier - mul_2 - Behavioral (D:/vhdl_github_2/vhdl_github_2/ALU1/mul_2.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -68,13 +68,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>View RTL Schematic</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>View RTL Schematic</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Behavioral Simulation</CurrentView>
@@ -82,6 +82,7 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/ALU1 - Behavioral J:|vhdl_github_2|vhdl_github_2|ALU1|ALU1.vhd</ClosedNode>
+         <ClosedNode>/Test_alu2 - behavior D:|vhdl_github_2|vhdl_github_2|ALU1|Test_alu2.vhd/uut - ALU1 - Behavioral</ClosedNode>
          <ClosedNode>/Test_alu2 - behavior J:|vhdl_github_2|vhdl_github_2|ALU1|Test_alu2.vhd</ClosedNode>
          <ClosedNode>/Test_alu2 - behavior J:|vhdl_github_2|vhdl_github_2|ALU1|Test_alu2.vhd/uut - ALU1 - Behavioral/Adder - four_bit_adder - Behavioral</ClosedNode>
          <ClosedNode>/t_mult22 - behavior J:|vhdl_github_2|vhdl_github_2|ALU1|t_mult22.vhd</ClosedNode>
@@ -89,6 +90,7 @@
          <ClosedNode>/test - behavior J:|vhdl_github_2|vhdl_github_2|ALU1|test-alu2.vhd</ClosedNode>
          <ClosedNode>/test_alu - behavior J:|vhdl_github_2|vhdl_github_2|ALU1|test_alu.vhd/uut - ALU1 - Behavioral</ClosedNode>
          <ClosedNode>/test_alu - behavior J:|vhdl_github_2|vhdl_github_2|ALU1|test_alu.vhd/uut - ALU1 - Behavioral/Adder - four_bit_adder - Behavioral</ClosedNode>
+         <ClosedNode>/test_mult - behavior D:|vhdl_github_2|vhdl_github_2|ALU1|test_mult.vhd</ClosedNode>
          <ClosedNode>/test_mult - behavior J:|vhdl_github_2|vhdl_github_2|ALU1|test_mult.vhd</ClosedNode>
          <ClosedNode>/test_mult - behavior J:|vhdl_github_2|vhdl_github_2|ALU1|test_mult.vhd/uut - mul_2 - Behavioral</ClosedNode>
       </ClosedNodes>
@@ -97,7 +99,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a0000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a00000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000111000000020000000000000000000000000200000064ffffffff000000810000000300000002000001110000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>Test_alu2 - behavior (D:/vhdl_github_2/vhdl_github_2/ALU1/Test_alu2.vhd)</CurrentItem>
    </ItemView>
@@ -120,12 +122,12 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
 </Project>

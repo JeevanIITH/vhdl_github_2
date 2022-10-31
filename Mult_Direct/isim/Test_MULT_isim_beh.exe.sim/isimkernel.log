@@ -1,0 +1,35 @@
+Command line:
+   Test_MULT_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54540
+
+Fri Oct 28 11:39:02 2022
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5145.84 Meg
+
+ Total Signals          : 14
+ Total Nets             : 36
+ Total Signal Drivers   : 9
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 3
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 538
+Total Line Count : 63
+
+** Failure:ok
+User(VHDL) Code Called Simulation Stop
+In process Test_MULT.vhd:stim_proc 
+ 
+
+
+ Total Simulation Time: 0.359375 sec
+
+ Current Memory Usage: 4988.55 Meg
+
+Fri Oct 28 11:40:04 2022
+

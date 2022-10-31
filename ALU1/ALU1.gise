@@ -71,6 +71,10 @@
     <transform xil_pn:end_ts="1656952802" xil_pn:in_ck="-1278961332763800103" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1656952802">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ALU1.vhd"/>
       <outfile xil_pn:name="AND.vhd"/>
       <outfile xil_pn:name="RS_q.vhd"/>
@@ -101,6 +105,11 @@
     <transform xil_pn:end_ts="1656952802" xil_pn:in_ck="-1278961332763800103" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1656952802">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ALU1.vhd"/>
       <outfile xil_pn:name="AND.vhd"/>
       <outfile xil_pn:name="RS_q.vhd"/>
@@ -119,7 +128,10 @@
     <transform xil_pn:end_ts="1656952805" xil_pn:in_ck="-1278961332763800103" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3291749893672811998" xil_pn:start_ts="1656952802">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Test_alu2_beh.prj"/>
       <outfile xil_pn:name="Test_alu2_isim_beh.exe"/>
@@ -131,6 +143,7 @@
     <transform xil_pn:end_ts="1656952805" xil_pn:in_ck="1362631259259633074" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5690385825594306129" xil_pn:start_ts="1656952805">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Test_alu2_isim_beh.wdb"/>
@@ -169,6 +182,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="ALU1.lso"/>
       <outfile xil_pn:name="ALU1.ngc"/>
       <outfile xil_pn:name="ALU1.ngr"/>

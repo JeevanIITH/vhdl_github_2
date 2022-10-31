@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/vhdl_github_2/vhdl_github_2/adder-8bit/test_8_bit_adder_isim_beh.exe" -prj "D:/vhdl_github_2/vhdl_github_2/adder-8bit/test_8_bit_adder_beh.prj" "work.test_8_bit_adder" 

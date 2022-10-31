@@ -1,0 +1,35 @@
+Command line:
+   Test_p_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59846
+
+Mon Oct 31 00:41:08 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5149.43 Meg
+
+ Total Signals          : 530
+ Total Nets             : 3136
+ Total Signal Drivers   : 110
+ Total Blocks           : 80
+ Total Primitive Blocks : 46
+ Total Processes        : 77
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 3638
+Total Line Count : 247
+
+** Failure:ok
+User(VHDL) Code Called Simulation Stop
+In process Test_p.vhd:stim_proc 
+ 
+
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4677.57 Meg
+
+Mon Oct 31 09:02:55 2022
+

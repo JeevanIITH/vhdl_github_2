@@ -26,3 +26,10 @@ User(VHDL) Code Called Simulation Stop
 In process test_fou_bit_adder_signed.vhd:stim_proc 
  
 
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 4673.13 Meg
+
+Sat Aug 13 12:27:54 2022
+

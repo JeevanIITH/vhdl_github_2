@@ -1,0 +1,5 @@
+vhdl work "sum.vhd"
+vhdl work "RS_q.vhd"
+vhdl work "left_shift_8_bit.vhd"
+vhdl work "mul_2.vhd"
+vhdl work "Test_mult_revise1.vhd"

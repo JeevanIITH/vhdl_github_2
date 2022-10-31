@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-08-13T10:24:40</DateModified>
+  <DateModified>2022-08-16T10:15:32</DateModified>
   <ModuleName>four_bit_signed_adder</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/iseconfig/four_bit_signed_adder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit\</ImplementationReportsDirectory>
   <DateInitialized>2022-08-13T10:24:40</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

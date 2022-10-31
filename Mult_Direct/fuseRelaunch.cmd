@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/vhdl_github_2/vhdl_github_2/Mult_Direct/Test_MULT_isim_beh.exe" -prj "D:/vhdl_github_2/vhdl_github_2/Mult_Direct/Test_MULT_beh.prj" "work.Test_MULT" 

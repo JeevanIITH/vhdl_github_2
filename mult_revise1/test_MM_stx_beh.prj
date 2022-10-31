@@ -1,0 +1,2 @@
+vhdl isim_temp "left_shift_8_bit.vhd"
+vhdl isim_temp "test_MM.vhd"

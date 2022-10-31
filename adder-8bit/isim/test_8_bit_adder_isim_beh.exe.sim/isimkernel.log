@@ -1,0 +1,35 @@
+Command line:
+   test_8_bit_adder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55208
+
+Sat Oct 29 22:01:47 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5145.03 Meg
+
+ Total Signals          : 101
+ Total Nets             : 35
+ Total Signal Drivers   : 21
+ Total Blocks           : 17
+ Total Primitive Blocks : 9
+ Total Processes        : 19
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 395
+Total Line Count : 24
+
+** Failure:ok
+User(VHDL) Code Called Simulation Stop
+In process test_8_bit_adder.vhd:stim_proc 
+ 
+
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 4673.18 Meg
+
+Sat Oct 29 22:04:33 2022
+

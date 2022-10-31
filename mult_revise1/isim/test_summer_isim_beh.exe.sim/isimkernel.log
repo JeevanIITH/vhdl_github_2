@@ -1,0 +1,28 @@
+Command line:
+   test_summer_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64760
+
+Fri Sep 09 10:58:53 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5145.19 Meg
+
+ Total Signals          : 11
+ Total Nets             : 27
+ Total Signal Drivers   : 6
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 3
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 529
+Total Line Count : 22
+
+** Failure:ok
+User(VHDL) Code Called Simulation Stop
+In process test_summer.vhd:stim_proc 
+ 
+

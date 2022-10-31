@@ -1,0 +1,23 @@
+Running: J:\xilinx_ise\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/vhdl_github_2/vhdl_github_2/registers/test_register_file_isim_beh.exe -prj D:/vhdl_github_2/vhdl_github_2/registers/test_register_file_beh.prj work.test_register_file 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/registers/register_file.vhd" into library work
+Parsing VHDL file "D:/vhdl_github_2/vhdl_github_2/registers/test_register_file.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:960 - "D:/vhdl_github_2/vhdl_github_2/registers/register_file.vhd" Line 54: Expression has incompatible type
+WARNING:HDLCompiler:960 - "D:/vhdl_github_2/vhdl_github_2/registers/register_file.vhd" Line 55: Expression has incompatible type
+WARNING:HDLCompiler:960 - "D:/vhdl_github_2/vhdl_github_2/registers/register_file.vhd" Line 59: Expression has incompatible type
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity register_file [register_file_default]
+Compiling architecture behavior of entity test_register_file
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 VHDL Units
+Built simulation executable D:/vhdl_github_2/vhdl_github_2/registers/test_register_file_isim_beh.exe
+Fuse Memory Usage: 36340 KB
+Fuse CPU Usage: 484 ms

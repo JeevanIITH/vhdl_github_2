@@ -8,7 +8,13 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/test_fou_bit_adder_signed.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/Two_bit_adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/four_bit_signed_adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/vhdl_github_2/vhdl_github_2/signed_adder_4_bit/one_bit_adder.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
